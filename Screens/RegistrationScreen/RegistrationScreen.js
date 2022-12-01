@@ -11,7 +11,7 @@ import {
   Button,
 } from "react-native";
 
-export default funtion RegistrationScreen () {
+export default function RegistrationScreen() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -64,7 +64,7 @@ export default funtion RegistrationScreen () {
       </View>
     </TouchableWithoutFeedback>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
