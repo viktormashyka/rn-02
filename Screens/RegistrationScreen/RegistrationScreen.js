@@ -11,7 +11,7 @@ import {
   Button,
 } from "react-native";
 
-export const RegistrationScreen = () => {
+export default funtion RegistrationScreen () {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -25,6 +25,8 @@ export const RegistrationScreen = () => {
       "Credentails:",
       `name: ${name}, + email: ${email}, + password: ${password}`
     );
+    console.log(`Credentails:
+      name: ${name}, + email: ${email}, + password: ${password}`);
   };
 
   return (
@@ -50,9 +52,12 @@ export const RegistrationScreen = () => {
             value={password}
             onChange={passwordHandler}
             placeholder="Пароль"
+            secureTextEntry={true}
             style={styles.input}
           />
-          <Button style={styles.button}>Зареєструватися</Button>
+          <Button title={"Login"} style={styles.button} onPress={onLogin}>
+            Зареєструватися
+          </Button>
           <Text style={styles.text}>Вже є акаунт? Увійти</Text>
           <StatusBar style="auto" />
         </KeyboardAvoidingView>
