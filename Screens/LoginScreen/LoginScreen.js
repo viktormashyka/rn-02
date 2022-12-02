@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   input: {
     height: 50,
 
-    background: "#F6F6F6",
+    backgroundColor: "#F6F6F6",
     /* Gray/02 */
 
     borderWidth: 1,
