@@ -11,7 +11,7 @@ export default function App() {
         source={require("./img/Photo_BG_1.jpg")}
       >
         <RegistrationScreen />
-        <LoginScreen />
+        {/* <LoginScreen /> */}
         <StatusBar style="auto" />
       </ImageBackground>
     </View>

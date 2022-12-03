@@ -13,7 +13,6 @@ import {
 import * as Font from "expo-font";
 import { classic } from "react-native-web/dist/cjs/exports/StyleSheet/compiler";
 
-
 const initialState = { email: "", password: "" };
 
 export const LoginScreen = () => {
@@ -75,7 +74,7 @@ const styles = StyleSheet.create({
     color: "#212121",
     textAlign: "center",
     fontSize: 30,
-    fontWeight: 500,
+    // fontWeight: 500,
   },
   input: {
     height: 50,
@@ -88,9 +87,9 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "black",
     marginBottom: 10,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontSize: 16,
-    fontWeight: 400,
+    // fontWeight: 400,
     lineHeight: 19,
     letterSpacing: 0,
     textAlign: "left",
@@ -99,9 +98,9 @@ const styles = StyleSheet.create({
 
   button: {
     height: 50,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontStyle: "normal",
-    fontWeight: 400,
+    // fontWeight: 400,
     fontSize: 16,
     lineHeight: 19,
     textAlign: "center",
@@ -118,11 +117,11 @@ const styles = StyleSheet.create({
 
   text: {
     marginTop: 16,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontStyle: "normal",
     color: "#1B4371",
     textAlign: "center",
-    fontWeight: 400,
+    // fontWeight: 400,
     fontSize: 16,
     lineHeight: 19,
   },
