@@ -6,6 +6,7 @@ export const loadFonts = async () => {
   await Font.loadAsync({
     "Roboto-Regular": require("./assets/fonts/Roboto/Roboto-Regular.ttf"),
     "Roboto-Bold": require("./assets/fonts/Roboto/Roboto-Bold.ttf"),
+    // "Roboto-Light": require("./assets/fonts/Roboto/Roboto-Light.ttf"),
   });
 };
 
